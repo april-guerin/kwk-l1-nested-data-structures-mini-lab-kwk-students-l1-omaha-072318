@@ -8,7 +8,12 @@ ingredients = [
 
 def sandwich_request(ingredients, order) 
   order.each do |item|
-    ingredients.include? item
+     if ingredients.include? item
+       x = TRUE
+     else
+       x = FALSE
+       break
+     end
   end
 end
 
