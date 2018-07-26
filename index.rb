@@ -6,6 +6,7 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
+order = ["rye", "tofu", "cheddar"]
 def sandwich_request(ingredients, order) 
   if order.all? { |item| ingredients.include?(item) }
     x = true
@@ -14,7 +15,7 @@ def sandwich_request(ingredients, order)
   end
   puts x
 end
-
+sandwich_request(ingredients, order )
 # example city_info hash
 cities = {
   :new_york => { 
