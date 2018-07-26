@@ -15,7 +15,6 @@ def sandwich_request(ingredients, order)
   #     x = false
   #   end
   # end
-  # puts "make sure you check all arrays for each order ingredient!"
   x
 end
 
