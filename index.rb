@@ -7,13 +7,6 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  ingredients = [
-    ["rye", "sourdough", "baguette"],
-    ["ham", "salami", "turkey"],
-    ["swiss", "munster", "cheddar"],
-    ["mayo", "mustard", "tabasco"]
-]
-  order = ["rye", "tofu","cheddar"]
   ingredients.include? order
 end
 
