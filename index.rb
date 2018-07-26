@@ -6,16 +6,8 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-order = ["rye", "tabasco", "cheddar"]
 def sandwich_request(ingredients, order) 
-  puts ingredients
-  puts order
-  if order.all? { |item| ingredients.include?(item) }
-    x = true
-  else
-    x = false
-  end
-  puts x
+  
 end
 sandwich_request(ingredients, order )
 # example city_info hash
