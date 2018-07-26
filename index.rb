@@ -12,7 +12,7 @@ def sandwich_request(ingredients, order)
   else
     x = false
   end
-  x
+  puts x
 end
 
 # example city_info hash
