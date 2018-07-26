@@ -7,8 +7,9 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  ingredients.include? order[0]
-  ingredients.include? order[1]
+  order.each do |item|
+    ingredients.include item
+  end
 end
 
 # example city_info hash
