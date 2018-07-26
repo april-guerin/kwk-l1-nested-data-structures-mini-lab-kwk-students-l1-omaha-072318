@@ -10,11 +10,11 @@ def sandwich_request(ingredients, order)
   x = true
   # order.each do |item|
   #   if ingredients.include? item
-  #     x = true
+  
   #   else
   #     x = false
   #   end
-  # end
+   end
   x
 end
 
