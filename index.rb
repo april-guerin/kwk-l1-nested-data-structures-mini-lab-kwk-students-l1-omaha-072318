@@ -13,7 +13,6 @@ def sandwich_request(ingredients, order)
        x = TRUE
      else
        x = FALSE
-       break
      end
   end
   x
