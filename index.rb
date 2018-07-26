@@ -6,7 +6,7 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-order = ["rye", "tofu", "cheddar"]
+order = ["rye", "tabasco", "cheddar"]
 def sandwich_request(ingredients, order) 
   if order.all? { |item| ingredients.include?(item) }
     x = true
